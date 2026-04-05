@@ -1,7 +1,15 @@
-import React from 'react';
+
 
 interface MobileOrderCardProps {
-  order: any;
+  order: {
+    id: number;
+    tracking_code: string;
+    customer_name: string;
+    status: string;
+    total: number;
+    currency: string;
+    is_urgent?: boolean;
+  };
   onActionClick: (id: number) => void;
   actionLabel: string;
 }
