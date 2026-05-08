@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { MobileOrderCard } from '../../components/MobileOrderCard';
 
 const TABS = ['PROCESSING', 'READY', 'ASSIGNED'];
