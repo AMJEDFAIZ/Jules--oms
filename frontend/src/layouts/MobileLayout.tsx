@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Outlet, Link } from 'react-router-dom';
 
 export const MobileLayout = ({ roleTabs }: { roleTabs: { path: string; label: string; icon: string }[] }) => {
